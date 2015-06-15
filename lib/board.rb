@@ -25,3 +25,16 @@ class Board
   end
 
 end
+
+#require 'terminal-table'
+#table = Terminal::Table.new do |rows|
+# rows << ['', 'a', 'b', 'c']
+# rows << :separator
+# rows << [1, '', '', '']
+# rows << :separator
+# rows << [2, '', '', '']
+# rows << :separator
+# rows << [3, '', '', '']
+# end
+
+# puts table
