@@ -1,1 +1,0 @@
-Day 1 pairing with Jonathan Ng

@@ -1,13 +1,10 @@
-require_relative 'ship'
-
 class Board
+
+  attr_accessor :ships
 
   def initialize
     @ships = []
   end
 
-  def place_ship(ship)
-    ship.placed
-    @ships << ship
-  end
+
 end
