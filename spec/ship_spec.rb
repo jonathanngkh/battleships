@@ -16,8 +16,16 @@ describe Ship do
     expect(ship.status).to eq "swim"
   end
 
-  it 'sinks when hit by changing status' do
-    subject = Ship.new("A1")
-    expect { subject.hit }.to change { subject.status }.from('swim').to('sink')
+  describe 'hit effects' do
+
+    it 'sinks when hit by changing status' do
+      subject = Ship.new("A1")
+      expect { subject.hit }.to change { subject.status }.from('swim').to('sink')
+    end
+
+    it 'returns "HIT!" when called' do
+      subject = Ship.new("A1")
+      expect(subject.hit).to eq "HIT!"
+    end
   end
 end
