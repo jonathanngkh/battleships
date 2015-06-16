@@ -26,8 +26,8 @@ class Board
 
 end
 
-#require 'terminal-table'
-#table = Terminal::Table.new do |rows|
+# require 'terminal-table'
+# table = Terminal::Table.new do |rows|
 # rows << ['', 'a', 'b', 'c']
 # rows << :separator
 # rows << [1, '', '', '']

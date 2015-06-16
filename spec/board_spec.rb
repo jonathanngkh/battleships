@@ -28,7 +28,7 @@ describe Board do
       # ship = Ship.new("A1")
       # subject.place(ship)
       # this means that
-      expect(subject.hit("A1")).to eq "MISS!"
+      # expect(subject.hit("A1")).to eq "MISS!"
     end
   end
 end
